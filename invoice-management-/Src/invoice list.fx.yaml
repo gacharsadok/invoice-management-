@@ -1,0 +1,85 @@
+"'invoice list' As screen":
+
+    "'Header Label_8' As label":
+        Align: =Align.Center
+        Color: |
+            =Color.White
+        Fill: =Color.Black
+        Height: =60
+        Size: =18
+        Text: ="Invoice Management"
+        Width: =1366
+        ZIndex: =1
+
+    "'User Label_8' As label":
+        Align: =Align.Right
+        Color: =Color.DarkGray
+        Text: ="Hello, " & User().FullName
+        Width: =200
+        X: =1166
+        ZIndex: =2
+
+    "'Logo Image_8' As image":
+        Height: =60
+        Image: =téléchargement
+        Width: =200
+        ZIndex: =3
+
+    Icon1_8 As icon.BackArrow:
+        Color: =Color.DarkGray
+        Height: =60
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        Width: =60
+        X: =220
+        ZIndex: =4
+
+    Gallery3 As gallery.galleryHorizontal:
+        DelayItemLoading: =true
+        Height: =297
+        Items: =invoice_1
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =1361
+        Width: =1366
+        Y: =62
+        ZIndex: =5
+
+        Label1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Titre
+            X: =40
+            Y: =28
+            ZIndex: =1
+
+        Label2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.ID
+            X: =226
+            Y: =40
+            ZIndex: =2
+
+        Icon3 As icon.View:
+            Height: =52
+            Icon: =Icon.View
+            OnSelect: =Set(itemID, ThisItem.ID); Navigate(invoice) ; ViewForm(Form_invoice)
+            Width: =54
+            X: =352
+            Y: =28
+            ZIndex: =3
+
+        Icon4 As icon.Add:
+            Height: =38
+            Icon: =Icon.Add
+            OnSelect: =Navigate(invoice)
+            Width: =58
+            X: =462
+            Y: =35
+            ZIndex: =4
+
+    cancel_7 As button:
+        OnSelect: =Navigate('Main Screen')
+        Text: ="Cancel"
+        X: =1132
+        Y: =693
+        ZIndex: =6
+

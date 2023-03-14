@@ -1,0 +1,45 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-03-08T00:31:12.9310000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Pièces jointes",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nom de fichier avec l’extension",
+      "{FullPath}": "Chemin d'accès complet",
+      "{HasAttachments}": "Comporte des pièces jointes",
+      "{Identifier}": "Identificateur",
+      "{IsFolder}": "EstUnDossier",
+      "{Link}": "Lien vers l’élément",
+      "{ModerationComment}": "Commentaires associés à l’approbation de contenu de cet élément de liste",
+      "{ModerationStatus}": "État d’approbation du contenu",
+      "{Name}": "Nom",
+      "{Path}": "Chemin d’accès au dossier",
+      "{Thumbnail}": "Miniaturansicht",
+      "{TriggerWindowEndToken}": "Jeton de fin de la fenêtre du déclencheur",
+      "{TriggerWindowStartToken}": "Jeton de démarrage de la fenêtre du déclencheur",
+      "{VersionNumber}": "Numéro de version",
+      "Author": "Créé par",
+      "Author#Claims": "Créé par Claims",
+      "ComplianceAssetId": "ID de ressource de conformité",
+      "Created": "Créé",
+      "Editor": "Modifié par",
+      "Editor#Claims": "Modifié par Claims",
+      "ID": "ID",
+      "Modified": "Modifié",
+      "role": "role",
+      "role#Id": "role Id",
+      "Title": "Titre"
+    },
+    "DatasetName": "https://alightconsulting.sharepoint.com/sites/InvoiceManagementSystem",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "user_1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

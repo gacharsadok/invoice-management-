@@ -1,0 +1,68 @@
+"'Main Screen' As screen":
+
+    "'Header Label' As label":
+        Align: =Align.Center
+        Color: |
+            =Color.White
+        Fill: =Color.Black
+        Height: =60
+        Size: =18
+        Text: ="Invoice Management"
+        Width: =1366
+        ZIndex: =1
+
+    "'User Label' As label":
+        Align: =Align.Right
+        Color: =Color.DarkGray
+        Text: ="Hello, " & User().FullName
+        Width: =200
+        X: =1166
+        ZIndex: =2
+
+    "'Logo Image' As image":
+        Height: =60
+        Image: =téléchargement
+        Width: =200
+        ZIndex: =3
+
+    avoir1 As button:
+        Height: =88
+        OnSelect: =Navigate(avoir)
+        Text: ="avoir"
+        Width: =174
+        X: =280
+        Y: =196
+        ZIndex: =4
+
+    user1 As button:
+        Height: =88
+        OnSelect: =Navigate(user)
+        Text: ="user"
+        X: =504
+        Y: =196
+        ZIndex: =6
+
+    product1 As button:
+        Height: =88
+        OnSelect: =Navigate(product)
+        Text: ="product"
+        X: =718
+        Y: =196
+        ZIndex: =7
+
+    customer1 As button:
+        Height: =88
+        OnSelect: =Navigate(customer)
+        Text: ="customer"
+        X: =930
+        Y: =196
+        ZIndex: =8
+
+    INVOICE1 As button:
+        Height: =88
+        OnSelect: =Navigate(invoice)
+        Text: ="INVOICE"
+        X: =1124
+        Y: =196
+        ZIndex: =9
+

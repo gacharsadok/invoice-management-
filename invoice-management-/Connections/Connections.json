@@ -1,0 +1,74 @@
+{
+  "b15cfe18-01b0-4474-b254-bbd709adee40": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3202/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://alightconsulting.sharepoint.com/sites/InvoiceManagementSystem": {
+        "dataSources": {
+          "avoir_1": {
+            "tableName": "5e11cb29-e805-4613-a5b2-95edc978cb5c"
+          },
+          "Bank": {
+            "tableName": "feeb5c36-48ff-45bd-ba88-48a28b460229"
+          },
+          "country": {
+            "tableName": "18239a55-0907-438b-88bb-752ed762c74d"
+          },
+          "customer discount": {
+            "tableName": "1098ed85-97e9-4446-a84b-6990a470a374"
+          },
+          "customer_1": {
+            "tableName": "615cf9fa-39f6-4f2d-b614-059659903df0"
+          },
+          "invoice_1": {
+            "tableName": "240c39b7-70ca-4a61-96d9-8f26c44f44db"
+          },
+          "product_1": {
+            "tableName": "8ff4fcbc-2026-453b-a799-2c40ae027e02"
+          },
+          "product_2": {
+            "tableName": "8ff4fcbc-2026-453b-a799-2c40ae027e02"
+          },
+          "responsable": {
+            "tableName": "b3b51873-c515-4f15-95f9-f693f36dcd42"
+          },
+          "status_payment": {
+            "tableName": "27493520-753a-48cd-8d5f-99ab0533089e"
+          },
+          "supplier_1": {
+            "tableName": "478495c5-57a6-4504-a971-aea2bf89e34f"
+          },
+          "user_1": {
+            "tableName": "d7fe8bba-0e2b-4ad8-a16d-0db60094acc9"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "product_1",
+      "avoir_1",
+      "Bank",
+      "country",
+      "customer_1",
+      "customer discount",
+      "invoice_1",
+      "product_2",
+      "responsable",
+      "status_payment",
+      "supplier_1",
+      "user_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b15cfe18-01b0-4474-b254-bbd709adee40"
+  }
+}
